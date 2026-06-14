@@ -34,8 +34,8 @@ export interface Release {
 
 export const artist = {
   name: 'X-Ample',
-  /** Paste X-Ample's real Spotify artist id here, e.g. '4B9UYU8uyLi1F41Z42fKuu' */
-  spotifyId: '3opv1Y9IZmh0Wt4Wj5e2pb?si=sbNNVszXQgeRylPoQuDdsA&nd=1&dlsi=3984b7807e8048ea',
+  /** X-Ample's Spotify artist id (the 22-char id only — never the ?si=… share suffix) */
+  spotifyId: '3opv1Y9IZmh0Wt4Wj5e2pb',
 }
 
 /** Resolve a Spotify destination that always works. */
@@ -63,65 +63,17 @@ export function artistHref(): string {
 
 export const releases: Release[] = [
   {
-    id: 'voltage-hymn',
-    title: 'Voltage Hymn',
+    id: 'this-is-x-ample',
+    title: 'This Is X-Ample',
     format: 'Album',
-    year: 2025,
-    note: 'Eleven tracks built from a single sustained chord and the hum of a Berlin substation.',
+    year: 2026,
+    note: 'The latest album from X-Ample — out now on Spotify. Press play.',
+    // Leave spotifyId empty to deep-link to Spotify; paste the album id
+    // (open.spotify.com/album/THIS_PART) to swap in an inline player.
     spotifyId: '',
     kind: 'album',
     seed: 14,
     featured: true,
-  },
-  {
-    id: 'low-orbit',
-    title: 'Low Orbit',
-    format: 'Single · feat. Mara Kovač',
-    year: 2025,
-    note: 'A duet for modular synth and dial-tone, mixed at 3am.',
-    spotifyId: '',
-    kind: 'track',
-    seed: 7,
-  },
-  {
-    id: 'nightshift-frequencies',
-    title: 'Nightshift Frequencies',
-    format: 'EP',
-    year: 2024,
-    note: 'Four cuts written on the last train, for people on the last train.',
-    spotifyId: '',
-    kind: 'album',
-    seed: 23,
-  },
-  {
-    id: 'concrete-bloom',
-    title: 'Concrete Bloom',
-    format: 'Single',
-    year: 2024,
-    note: 'Field recordings from an empty car park, bent into a melody.',
-    spotifyId: '',
-    kind: 'track',
-    seed: 31,
-  },
-  {
-    id: 'after-the-siren',
-    title: 'After the Siren',
-    format: 'Single',
-    year: 2023,
-    note: 'The quiet ninety seconds once the warehouse empties out.',
-    spotifyId: '',
-    kind: 'track',
-    seed: 5,
-  },
-  {
-    id: 'static-cathedral',
-    title: 'Static Cathedral',
-    format: 'Album',
-    year: 2022,
-    note: 'The debut. Tape hiss treated like a pipe organ.',
-    spotifyId: '',
-    kind: 'album',
-    seed: 18,
   },
 ]
 
