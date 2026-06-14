@@ -56,7 +56,7 @@ export function spotifyEmbed(release: Release): string | null {
 
 export function artistHref(): string {
   if (artist.spotifyId) {
-    return `https://open.spotify.com/artist/${artist.spotifyId}`
+    return `https://open.spotify.com/artist/3opv1Y9IZmh0Wt4Wj5e2pb?si=sbNNVszXQgeRylPoQuDdsA&nd=1&dlsi=3984b7807e8048ea`
   }
   return `https://open.spotify.com/search/${encodeURIComponent(artist.name)}`
 }
