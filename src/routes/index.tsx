@@ -18,7 +18,7 @@ const NAV = [
 ]
 
 const STATS = [
-  { k: 'Releases', v: '38' },
+  { k: 'Releases', v: '1' },
   { k: 'Cities played', v: '74' },
   { k: 'Operating since', v: '2017' },
 ]
@@ -133,7 +133,7 @@ function Home() {
       {/* ---------------- MARQUEE ---------------- */}
       <Marquee
         items={[
-          'New album — Voltage Hymn',
+          'New album — This Is X-Ample',
           'Out now on Spotify',
           'Summer tour 2026',
           'Modular / Tape / Concrete',
