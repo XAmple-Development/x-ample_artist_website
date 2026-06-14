@@ -35,7 +35,7 @@ export interface Release {
 export const artist = {
   name: 'X-Ample',
   /** Paste X-Ample's real Spotify artist id here, e.g. '4B9UYU8uyLi1F41Z42fKuu' */
-  spotifyId: '',
+  spotifyId: '3opv1Y9IZmh0Wt4Wj5e2pb?si=sbNNVszXQgeRylPoQuDdsA&nd=1&dlsi=3984b7807e8048ea',
 }
 
 /** Resolve a Spotify destination that always works. */
@@ -56,7 +56,7 @@ export function spotifyEmbed(release: Release): string | null {
 
 export function artistHref(): string {
   if (artist.spotifyId) {
-    return `https://open.spotify.com/artist/3opv1Y9IZmh0Wt4Wj5e2pb?si=sbNNVszXQgeRylPoQuDdsA&nd=1&dlsi=3984b7807e8048ea`
+    return `https://open.spotify.com/artist/${artist.spotifyId}`
   }
   return `https://open.spotify.com/search/${encodeURIComponent(artist.name)}`
 }
