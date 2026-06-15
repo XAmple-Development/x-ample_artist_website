@@ -63,17 +63,30 @@ export function artistHref(): string {
 
 export const releases: Release[] = [
   {
-    id: 'this-is-x-ample',
+    id: '',
     title: 'This Is X-Ample',
     format: 'Album',
     year: 2026,
     note: 'The latest album from X-Ample — out now on Spotify. Press play.',
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
-    spotifyId: '',
+    spotifyId: '1z3uUuCShPmHI6QMZyiIBT',
     kind: 'album',
     seed: 14,
     featured: true,
+  },
+  {
+    id: '',
+    title: 'This Is X-Ample',
+    format: 'Album',
+    year: 2026,
+    note: 'The latest album from X-Ample — out now on Spotify. Press play.',
+    // Leave spotifyId empty to deep-link to Spotify; paste the album id
+    // (open.spotify.com/album/THIS_PART) to swap in an inline player.
+    spotifyId: '2kSBIFjhLAKVVB8Umwo195',
+    kind: 'album',
+    seed: 14,
+    featured: false,
   },
 ]
 
