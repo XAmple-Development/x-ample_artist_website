@@ -77,15 +77,15 @@ export const releases: Release[] = [
   },
   {
     id: '',
-    title: 'This Is X-Ample',
+    title: 'Salt On Skin',
     format: 'Album',
     year: 2026,
-    note: 'The latest album from X-Ample — out now on Spotify. Press play.',
+    note: 'The latest single from X-Ample — out now on Spotify. Press play.',
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
     spotifyId: '2kSBIFjhLAKVVB8Umwo195',
     kind: 'album',
-    seed: 14,
+    seed: 13,
     featured: false,
   },
 ]
