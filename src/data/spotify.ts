@@ -63,27 +63,27 @@ export function artistHref(): string {
 
 export const releases: Release[] = [
   {
-    id: '',
+    id: '1z3uUuCShPmHI6QMZyiIBT',
     title: 'This Is X-Ample',
     format: 'Album',
     year: 2026,
     note: 'The latest album from X-Ample — out now on Spotify. Press play.',
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
-    spotifyId: '1z3uUuCShPmHI6QMZyiIBT',
+    spotifyId: '',
     kind: 'album',
     seed: 14,
     featured: true,
   },
   {
-    id: '',
+    id: 'kSBIFjhLAKVVB8Umwo195',
     title: 'Salt On Skin',
     format: 'Album',
     year: 2026,
     note: 'The latest single from X-Ample — out now on Spotify. Press play.',
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
-    spotifyId: '2kSBIFjhLAKVVB8Umwo195',
+    spotifyId: '',
     kind: 'album',
     seed: 13,
     featured: false,

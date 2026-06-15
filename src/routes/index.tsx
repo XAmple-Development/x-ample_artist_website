@@ -84,7 +84,7 @@ function Home() {
           <div className="load-rise mb-6 flex items-center gap-4" style={{ animationDelay: '0.1s' }}>
             <span className="kicker">Electronic producer · Live act</span>
             <span className="rule w-16 md:w-32" />
-            <span className="font-mono text-xs text-[var(--faint)]">EST. BERLIN</span>
+            <span className="font-mono text-xs text-[var(--faint)]">EST. LONDON, UK</span>
           </div>
 
           <h1 className="display-xl text-[20vw] leading-[0.78] md:text-[15vw] lg:text-[13.5rem]">
