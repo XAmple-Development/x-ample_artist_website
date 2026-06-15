@@ -19,7 +19,7 @@ const NAV = [
 
 const STATS = [
   { k: 'Releases', v: '1' },
-  { k: 'Cities played', v: '74' },
+  { k: 'Virtual Sessions', v: '74' },
   { k: 'Operating since', v: '2017' },
 ]
 

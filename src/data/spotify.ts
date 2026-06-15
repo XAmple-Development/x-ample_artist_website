@@ -85,12 +85,12 @@ export interface TourDate {
 }
 
 export const tour: TourDate[] = [
-  { date: 'JUL 02', city: 'Berlin', venue: 'Tresor', status: 'low' },
-  { date: 'JUL 11', city: 'Amsterdam', venue: 'Shelter', status: 'tickets' },
-  { date: 'JUL 19', city: 'London', venue: 'FOLD', status: 'sold' },
-  { date: 'AUG 03', city: 'Lisbon', venue: 'Lux Frágil', status: 'tickets' },
-  { date: 'AUG 16', city: 'Barcelona', venue: 'Nitsa', status: 'tickets' },
-  { date: 'SEP 05', city: 'Brooklyn', venue: 'Nowadays', status: 'low' },
+  { date: 'JUL 02', city: 'Virtual', venue: 'Tresor', status: 'low' },
+  { date: 'JUL 11', city: 'Virtual', venue: 'Shelter', status: 'tickets' },
+  { date: 'JUL 19', city: 'Virtual', venue: 'FOLD', status: 'sold' },
+  { date: 'AUG 03', city: 'Virtual', venue: 'Lux Frágil', status: 'tickets' },
+  { date: 'AUG 16', city: 'Virtual', venue: 'Nitsa', status: 'tickets' },
+  { date: 'SEP 05', city: 'Virtual', venue: 'Nowadays', status: 'low' },
 ]
 
 export const links = {
