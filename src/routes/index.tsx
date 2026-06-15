@@ -18,7 +18,7 @@ const NAV = [
 ]
 
 const STATS = [
-  { k: 'Releases', v: '1' },
+  { k: 'Releases', v: 'Ongoing' },
   { k: 'Virtual Sessions', v: '74' },
   { k: 'Operating since', v: '2017' },
 ]
@@ -221,9 +221,9 @@ function Home() {
 
           <Reveal className="mt-16 rounded-2xl border border-dashed border-[var(--line-strong)] p-6 text-center">
             <p className="font-mono text-xs uppercase tracking-widest text-[var(--faint)]">
-              Each cover deep-links to Spotify. Add real release IDs in
-              <span className="text-[var(--dim)]"> src/data/spotify.ts </span>
-              to embed playable inline players.
+
+              <span className="text-[var(--dim)]"> </span>
+
             </p>
           </Reveal>
         </div>
