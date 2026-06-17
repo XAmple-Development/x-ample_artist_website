@@ -78,14 +78,27 @@ export const releases: Release[] = [
   {
     id: 'kSBIFjhLAKVVB8Umwo195',
     title: 'Salt On Skin',
-    format: 'Album',
+    format: 'Single',
     year: 2026,
     note: 'The latest single from X-Ample — out now on Spotify. Press play.',
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
     spotifyId: '',
-    kind: 'album',
+    kind: 'single',
     seed: 13,
+    featured: false,
+  },
+  {
+    id: '48RDrTqGB7IR3hxBD00qQY',
+    title: 'Walking On A Dream',
+    format: 'Single',
+    year: 2026,
+    note: 'The latest single from X-Ample — out now on Spotify. Press play.',
+    // Leave spotifyId empty to deep-link to Spotify; paste the album id
+    // (open.spotify.com/album/THIS_PART) to swap in an inline player.
+    spotifyId: '',
+    kind: 'single',
+    seed: 12,
     featured: false,
   },
 ]
