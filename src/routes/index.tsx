@@ -18,9 +18,9 @@ const NAV = [
 ]
 
 const STATS = [
-  { k: 'Releases', v: 'Ongoing' },
+  { k: 'Age', v: '31' },
   { k: 'Virtual Sessions', v: '74' },
-  { k: 'Operating since', v: '2017' },
+  { k: 'Operating since', v: '2025' },
 ]
 
 function Equalizer() {
@@ -302,7 +302,7 @@ function Home() {
               <p className="mt-4 max-w-xs text-sm text-[var(--faint)]">
                 Machine music for human rooms. Booking &amp; press:
                 <a href="mailto:booking@x-ample.fm" className="ul-sweep ml-1 text-[var(--dim)]">
-                  booking@x-ample.fm
+                  info@x-ampledevelopment.co.uk
                 </a>
               </p>
             </div>
