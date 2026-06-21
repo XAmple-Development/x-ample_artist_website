@@ -37,7 +37,16 @@ export function ReleaseCard({
         aria-label={`Listen to ${release.title} on Spotify`}
       >
         <div className={`cover ${featured ? 'aspect-[16/9]' : 'aspect-square'} rounded-xl border border-[var(--line)]`}>
-          <CoverArt seed={release.seed} label={release.title} />
+          {release.image ? (
+            <img
+              src={release.image}
+              alt={`${release.title} cover artwork`}
+              className="cover-art h-full w-full object-cover"
+              loading="lazy"
+            />
+          ) : (
+            <CoverArt seed={release.seed} label={release.title} />
+          )}
           <div className="absolute inset-x-0 bottom-0 z-10 flex items-end justify-between gap-3 p-5">
             <div>
               <div className="eyebrow mb-1">

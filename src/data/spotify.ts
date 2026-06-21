@@ -29,6 +29,8 @@ export interface Release {
   kind: ReleaseKind
   /** seed used to generate the cover artwork gradient/waveform */
   seed: number
+  /** real cover image URL (e.g. from Spotify) — falls back to generated art when absent */
+  image?: string
   featured?: boolean
 }
 
@@ -84,7 +86,7 @@ export const releases: Release[] = [
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
     spotifyId: '',
-    kind: 'single',
+    kind: 'album',
     seed: 13,
     featured: false,
   },
@@ -97,7 +99,7 @@ export const releases: Release[] = [
     // Leave spotifyId empty to deep-link to Spotify; paste the album id
     // (open.spotify.com/album/THIS_PART) to swap in an inline player.
     spotifyId: '',
-    kind: 'single',
+    kind: 'album',
     seed: 12,
     featured: false,
   },
