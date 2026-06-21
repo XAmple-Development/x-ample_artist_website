@@ -4,10 +4,12 @@ import { Reveal } from '@/components/Reveal'
 import { Marquee } from '@/components/Marquee'
 import { ReleaseCard, SpotifyGlyph } from '@/components/ReleaseCard'
 import { NewsletterForm } from '@/components/NewsletterForm'
-import { artistHref, links, releases, tour } from '@/data/spotify'
+import { artistHref, links, tour } from '@/data/spotify'
+import { getReleases } from '@/data/spotify-live'
 
 export const Route = createFileRoute('/')({
   component: Home,
+  loader: () => getReleases(),
 })
 
 const NAV = [
@@ -34,6 +36,7 @@ function Equalizer() {
 }
 
 function Home() {
+  const releases = Route.useLoaderData()
   const featured = releases.filter((r) => r.featured)
   const rest = releases.filter((r) => !r.featured)
 
